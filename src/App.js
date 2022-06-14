@@ -1,4 +1,5 @@
 import TagRule from "./components/1_jsxRule/TagRule";
+import ClassComponent from "./components/2_component/ClassComponent";
 // import FnComponent from "./components/2_component/FnComponent";
 import {
   FnComponent_1,
@@ -14,6 +15,7 @@ const App = () => {
       {/* <FnComponent /> */}
       {/* <FnComponent_1 />
       <FnComponent_2 /> */}
+      <ClassComponent />
     </div>
   );
 };
