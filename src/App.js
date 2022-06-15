@@ -8,8 +8,8 @@ import {
 import { Menus } from "./components/3_props/Menus";
 import { Menus_ex } from "./components/3_props/Menus_ex";
 import { Subject } from "./components/3_props/Subject";
-import { subJectDb } from "./db";
-import { TodayMenu } from "./db";
+import { subJectDb, TodayMenu } from "./db";
+
 const App = () => {
   return (
     <div>
