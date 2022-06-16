@@ -8,6 +8,7 @@ import {
 import { Menus } from "./components/3_props/Menus";
 import { Menus_ex } from "./components/3_props/Menus_ex";
 import { Subject } from "./components/3_props/Subject";
+import { Content } from "./components/4_map/Content";
 import { FoodMenu } from "./components/4_map/FoodMenu";
 import { Kakao } from "./components/4_map/Kakao";
 import { KakaoDb, subJectDb, TodayMenu } from "./db";
@@ -30,7 +31,8 @@ const App = () => {
       {/* 3일차 */}
 
       {/* <FoodMenu menus={TodayMenu} /> */}
-      <Kakao KakaoDate={KakaoDb} />
+      {/* <Kakao KakaoDate={KakaoDb} /> */}
+      <Content />
     </div>
   );
 };
