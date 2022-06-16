@@ -48,3 +48,11 @@ npm i(install)
   =>
   --save옵션은 패키지 제이슨에 dependency항목에 추가하는건데 생략 가능함
   =>기본 스타일은 scss와 비슷함
+
+## 설치
+
+- [x] npm i styled-components
+      =>스타일 컴포넌트 사용
+
+- [x] npm i styled-reset
+      =>리셋 스타일 사용
