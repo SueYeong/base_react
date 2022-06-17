@@ -118,6 +118,11 @@ const Icon = styled.div`
   svg {
     color: lightgray;
   }
+  &:hover {
+    svg {
+      color: #1d1d1d;
+    }
+  }
 `;
 
 const Namebar = styled.div`
