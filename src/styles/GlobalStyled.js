@@ -13,5 +13,9 @@ export const GlobalStyled = createGlobalStyle`
         box-sizing: border-box;
     }
 
+    a{
+      text-decoration: none;
+    }
+
 
 `;

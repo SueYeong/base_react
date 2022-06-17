@@ -8,10 +8,11 @@ import {
 import { Menus } from "./components/3_props/Menus";
 import { Menus_ex } from "./components/3_props/Menus_ex";
 import { Subject } from "./components/3_props/Subject";
+import { ConEx } from "./components/4_map/ConEx";
 import { Content } from "./components/4_map/Content";
 import { FoodMenu } from "./components/4_map/FoodMenu";
 import { Kakao } from "./components/4_map/Kakao";
-import { KakaoDb, subJectDb, TodayMenu } from "./db";
+import { conDb, KakaoDb, subJectDb, TodayMenu } from "./db";
 import { GlobalStyled } from "./styles/GlobalStyled";
 
 const App = () => {
@@ -34,7 +35,9 @@ const App = () => {
 
       {/* <FoodMenu menus={TodayMenu} /> */}
       {/* <Kakao KakaoDate={KakaoDb} /> */}
-      <Content />
+      {/* <Content /> */}
+      <ConEx conData={conDb} />
+      {/* 4일차 */}
     </div>
   );
 };
