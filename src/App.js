@@ -12,6 +12,8 @@ import { ConEx } from "./components/4_map/ConEx";
 import { Content } from "./components/4_map/Content";
 import { FoodMenu } from "./components/4_map/FoodMenu";
 import { Kakao } from "./components/4_map/Kakao";
+import { Icons } from "./components/5_MusicApp/Icons";
+import { MusicApp } from "./components/5_MusicApp/MusicApp";
 import { conDb, KakaoDb, subJectDb, TodayMenu } from "./db";
 import { GlobalStyled } from "./styles/GlobalStyled";
 
@@ -36,8 +38,12 @@ const App = () => {
       {/* <FoodMenu menus={TodayMenu} /> */}
       {/* <Kakao KakaoDate={KakaoDb} /> */}
       {/* <Content /> */}
-      <ConEx conData={conDb} />
+      {/* <ConEx conData={conDb} /> */}
       {/* 4일차 */}
+
+      {/* <Icons /> */}
+      <MusicApp />
+      {/* 5일차 */}
     </div>
   );
 };
