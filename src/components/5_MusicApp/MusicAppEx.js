@@ -26,7 +26,7 @@ const Section = styled.section`
 
 const CoverImg = styled.div`
   width: 90%;
-  height: 280px;
+  height: 250px;
   border-radius: 25px;
   box-shadow: 0 15px 20px 10px rgba(0, 0, 0, 0.3);
   margin: 30px 0;
@@ -40,7 +40,7 @@ export const MusicAppEX = () => {
 
         <CoverImg
           style={{
-            background: `url(https://www.freecodecamp.org/news/content/images/2021/06/w-qjCHPZbeXCQ-unsplash.jpg) no-repeat center / cover`,
+            background: `url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkL_cvNPpjYKQTNxoOo5QQOV8ePJRGk2wLuw&usqp=CAU) no-repeat center / cover`,
           }}
         />
 
