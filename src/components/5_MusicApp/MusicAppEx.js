@@ -5,9 +5,21 @@ import { Header } from "./components/Header";
 import { PlayWrap } from "./components/PlayWrap";
 import { TitleWrap } from "./components/TitleWrap";
 
-const Wrap = styled.div``;
+const Wrap = styled.div`
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+`;
 
-const Section = styled.section``;
+const Section = styled.section`
+  width: 357px;
+  height: 667px;
+  background-color: #1d1d1d;
+  border-radius: 25px;
+  padding: 40px;
+`;
 
 const CoverImg = styled.div``;
 
