@@ -15,8 +15,12 @@ import { Kakao } from "./components/4_map/Kakao";
 import { Icons } from "./components/5_MusicApp/Icons";
 import { MusicApp } from "./components/5_MusicApp/MusicApp";
 import { MusicAppEX } from "./components/5_MusicApp/MusicAppEx";
+import { ClassEvent } from "./components/6_Event/ClassEvent";
+import { ChangeColor } from "./components/6_Event/ChangeColor";
+import { FnEvent } from "./components/6_Event/FnEvent";
 import { conDb, KakaoDb, subJectDb, TodayMenu } from "./db";
 import { GlobalStyled } from "./styles/GlobalStyled";
+import { ChoiceColor } from "./components/6_Event/ChoiceColor";
 
 const App = () => {
   return (
@@ -44,8 +48,14 @@ const App = () => {
 
       {/* <Icons /> */}
       {/* <MusicApp /> */}
-      <MusicAppEX />
+      {/* <MusicAppEX /> */}
       {/* 5일차 */}
+
+      {/* <ClassEvent /> */}
+      {/* <FnEvent /> */}
+      <ChangeColor />
+      <ChoiceColor />
+      {/* 6일차 */}
     </div>
   );
 };
