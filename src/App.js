@@ -14,6 +14,7 @@ import { FoodMenu } from "./components/4_map/FoodMenu";
 import { Kakao } from "./components/4_map/Kakao";
 import { Icons } from "./components/5_MusicApp/Icons";
 import { MusicApp } from "./components/5_MusicApp/MusicApp";
+import { MusicAppEX } from "./components/5_MusicApp/MusicAppEx";
 import { conDb, KakaoDb, subJectDb, TodayMenu } from "./db";
 import { GlobalStyled } from "./styles/GlobalStyled";
 
@@ -42,7 +43,8 @@ const App = () => {
       {/* 4일차 */}
 
       {/* <Icons /> */}
-      <MusicApp />
+      {/* <MusicApp /> */}
+      <MusicAppEX />
       {/* 5일차 */}
     </div>
   );
