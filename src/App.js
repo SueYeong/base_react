@@ -22,6 +22,7 @@ import { conDb, KakaoDb, subJectDb, TodayMenu } from "./db";
 import { GlobalStyled } from "./styles/GlobalStyled";
 import { ChoiceColor } from "./components/6_Event/ChoiceColor";
 import { Animation } from "./components/6_Event/Animation";
+import { BaseRouter } from "./components/7_router/BaseRouter";
 
 const App = () => {
   return (
@@ -56,8 +57,11 @@ const App = () => {
       {/* <FnEvent /> */}
       {/* <ChangeColor /> */}
       {/* <ChoiceColor /> */}
-      <Animation />
+      {/* <Animation /> */}
       {/* 6일차 */}
+
+      <BaseRouter />
+      {/* 7일차 */}
     </div>
   );
 };
