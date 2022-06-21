@@ -21,6 +21,7 @@ import { FnEvent } from "./components/6_Event/FnEvent";
 import { conDb, KakaoDb, subJectDb, TodayMenu } from "./db";
 import { GlobalStyled } from "./styles/GlobalStyled";
 import { ChoiceColor } from "./components/6_Event/ChoiceColor";
+import { Animation } from "./components/6_Event/Animation";
 
 const App = () => {
   return (
@@ -53,8 +54,9 @@ const App = () => {
 
       {/* <ClassEvent /> */}
       {/* <FnEvent /> */}
-      <ChangeColor />
-      <ChoiceColor />
+      {/* <ChangeColor /> */}
+      {/* <ChoiceColor /> */}
+      <Animation />
       {/* 6일차 */}
     </div>
   );
