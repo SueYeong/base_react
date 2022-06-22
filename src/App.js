@@ -23,6 +23,7 @@ import { GlobalStyled } from "./styles/GlobalStyled";
 import { ChoiceColor } from "./components/6_Event/ChoiceColor";
 import { Animation } from "./components/6_Event/Animation";
 import { BaseRouter } from "./components/7_router/BaseRouter";
+import { LayoutRouter } from "./components/8_BaseLayout/LayoutRouter";
 
 const App = () => {
   return (
@@ -60,8 +61,11 @@ const App = () => {
       {/* <Animation /> */}
       {/* 6일차 */}
 
-      <BaseRouter />
+      {/* <BaseRouter /> */}
       {/* 7일차 */}
+
+      <LayoutRouter />
+      {/* 8일차 */}
     </div>
   );
 };
